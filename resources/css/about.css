@@ -45,6 +45,7 @@ div > .card {
 		width: 90%;
 		margin: 15px auto;
 		color: #777;
+		box-shadow: 0 4px 8px 0;
 	}
 	div .container {
 		width: 100%;
