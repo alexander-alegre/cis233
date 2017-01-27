@@ -1,6 +1,9 @@
 body, html {
 	color: #999;
 }
+h4 {
+	font-size: 3em;
+}
 .content p {
 	text-align: center;
 	padding: 0 10px;
@@ -47,7 +50,7 @@ div > .card {
 		width: 100%;
 	}
 }
-button {
+.btn-info {
 	margin: 0 auto;
 	border-radius: 3px;
 	width: 100%;
