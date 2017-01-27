@@ -1,0 +1,21 @@
+html, body {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    height: 100vh;
+    margin: 0;
+    height: 100%;
+}
+.title {
+    text-align: center;
+}
+.sub-title {
+	font-size: 30px;
+    text-align: center;
+}
+footer {
+	padding: 20px;
+	display: inline;
+	text-align: center;
+	margin-top: auto;
+}
