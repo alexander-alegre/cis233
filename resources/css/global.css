@@ -1,10 +1,11 @@
 html, body {
     background-color: #fff;
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    height: 100vh;
+    font-weight: 400;
+    min-height: 100vh;
     margin: 0;
     height: 100%;
+    color: black;
 }
 .title {
     text-align: center;
@@ -15,7 +16,10 @@ html, body {
 }
 footer {
 	padding: 20px;
-	display: inline;
+	display: block;
 	text-align: center;
-	margin-top: auto;
+    margin: auto 0;
+}
+li a:hover {
+    box-shadow: 0 4px 8px 0;
 }

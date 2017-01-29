@@ -1,0 +1,104 @@
+p {
+	font-weight: 400;
+}
+.content {
+	width: 32%;
+	border: 1px solid black;
+	box-shadow: 0 2px 4px 0;
+	margin: 10px;
+	padding: 5px;
+}
+.content:hover {
+	box-shadow: 0 4px 8px 0;
+}
+.content h4 {
+	text-align: center;
+}
+a:hover {
+	text-decoration: none;
+}
+/* .due-date {
+	float: left;
+}
+.points {
+	float: left;
+}
+.time-left {
+	float: right;
+} */
+.value {
+	float: right;
+}
+@media(max-width: 768px) {
+	.content {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+.change-color {
+    background-color: #00B1B2;
+    color: #fff;
+}
+/*********************
+* clock styles start *
+*********************/
+.clock {
+	padding: 10px;
+}
+#clockdiv{
+    padding-top: 25px;
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+}
+@media (max-width: 410px) {
+    #clockdiv {
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    #clockdiv {
+        font-size: 50px;
+    }
+}
+@media (min-width: 900px) {
+    #clockdiv {
+        font-size: 70px;
+    }
+}
+@media (min-width: 1100px) {
+    #clockdiv {
+        padding-top: 25px;
+        font-size: 100px;
+    }
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #555;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    /* green color */
+    background: #00B1B2;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+/*******************
+* clock styles end *
+*******************/
+.clock-heading {
+	text-align: center;
+	margin: 0 auto;
+}

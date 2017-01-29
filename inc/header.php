@@ -10,9 +10,8 @@
 ``                ``
  -->
 <?php
-$timezone = date_default_timezone_get();
-date_default_timezone_set($timezone);
-$today = date("n / j / Y");
+date_default_timezone_set("America/Phoenix");
+$today = date("n/j/Y");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,9 +21,9 @@ $today = date("n / j / Y");
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php echo $title; ?>
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600" rel="stylesheet" type="text/css">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="vendors/css/bootstrap.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css" crossorigin="anonymous">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Styles -->
