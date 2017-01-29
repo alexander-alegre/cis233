@@ -35,9 +35,16 @@ a:hover {
 		margin: 0 auto;
 	}
 }
-.change-color {
+.change-color, .original-color {
     background-color: #00B1B2;
     color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.user-color {
+    padding: 10px;
+    border-radius: 5px;
+    width: 140px;
 }
 /*********************
 * clock styles start *

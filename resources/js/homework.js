@@ -38,7 +38,6 @@ function getTimeRemaining(endtime) {
     'seconds': seconds
   };
 }
-
 // countdown clock
 function initializeClock(id, endtime) {
   var clock = document.getElementById(id);
@@ -46,27 +45,22 @@ function initializeClock(id, endtime) {
   var hoursSpan = clock.querySelector('.hours');
   var minutesSpan = clock.querySelector('.minutes');
   var secondsSpan = clock.querySelector('.seconds');
-
   function updateClock() {
     var t = getTimeRemaining(endtime);
-
     daysSpan.innerHTML = t.days;
     hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
     if (t.total <= 0) {
       clearInterval(timeinterval);
     }
   }
-
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
-
 var deadline = 'May 2 2017 18:00:00';
-
 initializeClock('clockdiv', deadline);
+
 // end of countdown clock
 // change color of the clock
 $('.change-color').click(function() {
@@ -76,5 +70,19 @@ $('.change-color').click(function() {
 	});
 	$('.change-color').css({
 		backgroundColor: userColor
+	});
+	$('.original-color').css({
+		backgroundColor: userColor
+	});
+});
+$('.original-color').click(function(){
+	$('#clockdiv div span').css({
+		backgroundColor: '#00B1B2'
+	});
+	$('.change-color').css({
+		backgroundColor: '#00B1B2'
+	});
+	$('.original-color').css({
+		backgroundColor: '#00B1B2'
 	});
 });

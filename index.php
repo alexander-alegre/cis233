@@ -22,6 +22,7 @@ require('inc/header.php')
 			<p>RGB: rgb(121,223,123)</p>
 			<input class="user-color" type="text" name="" value="" placeholder="blue, red, green">
 			<button type="submit" class="change-color">Change Color</button>
+			<button type="submit" class="original-color">Original Color</button>
 		</div>
     	<div id="clockdiv">
 	        <div>
