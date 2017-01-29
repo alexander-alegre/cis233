@@ -38,7 +38,7 @@ require('inc/header.php')
 			<div class="card">
 				<img src="resources/images/angular.png" alt="angular logo">
 				<h4 class="tech-name">Angular</h4>
-				<p class="tech-info">Angular is a JavaScript framework that allows two way data binding which is amazing! It also manupulated the DOM directly which is faster than adding inner HTML. It also has some really cool animations.</p>
+				<p class="tech-info">Angular is a JavaScript framework that allows two way data binding which is amazing! It also manipulates the DOM directly which is faster than adding inner HTML. It also has some really cool animations.</p>
 				<a href="https://angularjs.org/" target="_blank"><button type="button" class="btn btn-info">Learn More</button></a>
 			</div>
 			<div class="card">
