@@ -49,6 +49,7 @@ div > .card {
 	}
 	div .container {
 		width: 100%;
+		margin: auto 5%;
 	}
 }
 .btn-info {

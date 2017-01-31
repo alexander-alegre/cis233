@@ -2,18 +2,10 @@
 $title = "<title>CIS 233 Homework Page</title>";
 $custom_css = '<link rel="stylesheet" type="text/css" href="resources/css/homework.css">';
 require('inc/header.php');
-$now = time() - (60*60*24);
-$resumeDate = strtotime('2/7/2017');
-$responsiveDate = strtotime('2/27/2017');
-$cartDate = strtotime('2/28/2017');
-$lightboxDate = strtotime('3/14/2017');
-$projectDate = strtotime('3/21/2017');
-$flashDate = strtotime('3/28/2017');
-$phpDate = strtotime('4/11/2017');
-$rolloverDate = strtotime('4/18/2017');
-$wordpressDate = strtotime('4/25/2017');
-$finalDate = strtotime('5/2/2017');
+require('resources/functions/time.php');
 ?>
+	<h1>Alexander Alegre</h1>
+	<h2>CIS 233 Homework Page</h2>
 	<!-- start of clock -->
 	<div class="clock">
 		<div class="clock-heading">
@@ -22,7 +14,7 @@ $finalDate = strtotime('5/2/2017');
 			<p>Name: blue, red, green</p>
 			<p>Hex: #ff6347, #777</p>
 			<p>RGB: rgb(121,223,123)</p>
-			<input class="user-color" type="text" name="" value="" placeholder="blue, red, green">
+			<input class="user-color" type="text" name="user-color" value="" placeholder="blue, red, green">
 			<button type="submit" class="change-color">Change Color</button>
 			<button type="submit" class="original-color">Original Color</button>
 		</div>
