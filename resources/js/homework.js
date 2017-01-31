@@ -1,28 +1,4 @@
 var todayDate = Date();
-// due dates for projects
-var dueDates = [];
-dueDates['resume'] = new Date('2/7/2017').toLocaleDateString();
-dueDates['responsive'] = new Date('2/21/2017').toLocaleDateString();
-dueDates['cart'] = new Date('2/28/2017').toLocaleDateString();
-dueDates['lighbox'] = new Date('3/14/2017').toLocaleDateString();
-dueDates['project'] = new Date('3/21/2017').toLocaleDateString();
-dueDates['flash'] = new Date('3/28/2017').toLocaleDateString();
-dueDates['php'] = new Date('4/11/2017').toLocaleDateString();
-dueDates['rollover'] = new Date('4/18/2017').toLocaleDateString();
-dueDates['wordpress'] = new Date('4/25/2017').toLocaleDateString();
-dueDates['final'] = new Date('5/2/2017').toLocaleDateString();
-
-$('.resume').text(dueDates['resume']);
-$('.responsive').text(dueDates['responsive']);
-$('.cart').text(dueDates['cart']);
-$('.lightbox').text(dueDates['lightbox']);
-$('.project').text(dueDates['project']);
-$('.flash').text(dueDates['flash']);
-$('.php').text(dueDates['php']);
-$('.rollover').text(dueDates['rollover']);
-$('.wordpress').text(dueDates['wordpress']);
-$('.final').text(dueDates['final']);
-
 // start of contdown clock
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -74,7 +50,11 @@ $('.change-color').click(function() {
 	$('.original-color').css({
 		backgroundColor: userColor
 	});
+  $('.content').css({
+    borderColor: userColor
+  });
 });
+// back to original color
 $('.original-color').click(function(){
 	$('#clockdiv div span').css({
 		backgroundColor: '#00B1B2'
@@ -85,4 +65,7 @@ $('.original-color').click(function(){
 	$('.original-color').css({
 		backgroundColor: '#00B1B2'
 	});
+  $('.content').css({
+    borderColor: '#00B1B2'
+  });
 });
