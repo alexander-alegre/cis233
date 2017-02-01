@@ -1,0 +1,49 @@
+.content {
+	height: 100%;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+a {
+	
+}
+a:visited {
+
+}
+/* left side start */
+.left-side {
+	float: left;
+	width: 30%;
+	height: 100%;
+	border-right: 1px solid gray;
+	position: fixed;
+}
+.profile {
+	margin: 20px 10px;
+	padding: 20px 10px;
+}
+.profile img {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.profile p {
+	float: right;
+	width: 50%;
+	padding: 5px;
+}
+.profile-menu {
+	margin-top: 50px;
+	padding-top: 10px;
+	border-top: 1px solid grey;
+}
+/* left side end */
+/* right side start */
+.right-side {
+	float: right;
+	width: 65%;
+}
+
+
+/* right side end */
