@@ -20,7 +20,7 @@ $today = date("n/j/Y");
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0">
 	<meta name="description" content="A website created by Alexander Alegre for CIS 233 at Paradise Valley Community College. This website has all of the work for the full semester.">
-	<meta name="keywords" content="web developer, software developer, developer, Alexander Alegre, CIS 233, PVCC, PHP, JavaScript">
+	<meta name="keywords" content="web developer, software developer, developer, Alexander Alegre, CIS 233, PVCC, PHP, JavaScript, pvcc, cis233, CIS233, CIS-233, cis-233, alex alegre, homework, cis233 homework">
 	<meta name="author" content="Alexander Alegre">
 	<link rel="icon" href="inc/favicon.ico">
 	<?php echo $title; ?>
