@@ -18,3 +18,19 @@ $('#resume').click(function(){
 $('#friends').click(function(){
 	$('.ajax-content').load('resources/ajax/friends.php');
 });
+
+// show modal when mouse leaves window
+var counter = 0;
+$(document).mouseleave(function() {
+	if (counter == 0) {
+		counter ++;
+		$('.modal').modal('show');
+		console.log('modal appeared');
+	}
+});
+
+// function that says site will be completed
+
+$(document).ready(function(){
+	alert('hey, before you judge, the site is not done yet');
+});

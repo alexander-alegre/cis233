@@ -7,7 +7,7 @@ require('inc/header.php')
 		<aside class="left-side">
 			<div class="profile">
 				<img src="resources/images/resume/profile.jpg">
-				<p>Shiloh</p>
+				<p class="myName"><a href="resume.php">Shiloh</a></p>
 			</div>
 			<div class="profile-menu">
 				<ul>
@@ -21,7 +21,17 @@ require('inc/header.php')
 		</aside>
 		<aside class="right-side">
 			<div class="load-content">
-				<div class="ajax-content">Hello, this page is to display my skills and it has every reason of why you would like to hire me!</div>
+				<div class="ajax-content well well-lg">Hello, this page is to display my skills and it has every reason of why you would like to hire me!</div>
+				<!-- modal will only show when the user leaves the page -->
+				<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+				  <div class="modal-dialog modal-sm" role="document">
+				    <div class="modal-content">
+				      <h1><a href="http://www.w3schools.com/">W3Schools!</a></h1>
+				      <p>Hey there buddy! Before you go, check out <a href="http://www.w3schools.com/">W3Schools</a>! They pay me big bucks! If you click on their link!</p>
+				      <button type="button" class="btn btn-default col-xs-12" data-dismiss="modal">Close</button>
+				    </div>
+				  </div>
+				</div>
 			</div>
 		</aside>
 	</div>

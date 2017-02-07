@@ -2,16 +2,18 @@
 	height: 100%;
 }
 img {
-	width: 50px;
-	height: 50px;
+/* 	width: 100px;
+	height: 100px; */
+	transform: rotate(90deg);
 }
 .menu-item {
 	width: 100%;
 	list-style: none;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	text-align: center;
 	margin-left: -20px;
-	padding: 10px;
+	padding: 5px;
 }
 .menu-item:hover {
 	cursor: pointer;
@@ -33,7 +35,7 @@ img {
 }
 .profile {
 	margin: 20px 10px;
-	padding: 20px 10px;
+	padding: 20% 10px;
 }
 .profile img {
 	float: left;
@@ -76,4 +78,24 @@ img {
 }
 form {
 	margin: 0 30px;
+}
+.myName {
+	font-size: 1.5em;
+}
+.modal {
+	margin: 30px;
+}
+.modal p, h1 {
+	padding: 20px;
+}
+
+
+/* small screens */
+@media (max-width: 780px) {
+	.left-side {
+		display: block;
+	}
+	.right-side {
+		display: block;
+	}	
 }

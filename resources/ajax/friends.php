@@ -20,12 +20,12 @@ require '../json/json.php';
 		</select>
 	</div>
 	<div class="form-group">
-		<label for="born">Born</label>
-		<input type="date" name="born" class="form-control" id="born" placeholder=""/>
+		<label for="title">Title</label>
+		<input type="text" name="title" class="form-control" id="title"/>
 	</div>
 	<div class="form-group">
 		<label for="code">First Line of Code</label>
-		<input type="date" name="code" class="form-control" id="code" placeholder=""/>
+		<input type="date" name="code" class="form-control" id="code"/>
 	</div>
 	<input type="submit" class="btn btn-default" name="submit" id="submit" />
 </form>
@@ -36,10 +36,6 @@ require '../json/json.php';
 <!-- display all of the friends -->
 <h4>List of Friends</h4>
 <?php
-	appendData();
+	// appendData();
 	getFriends();
-?>
-<?php
-	$custom_js = '';
-	require '../../inc/footer.php';
 ?>

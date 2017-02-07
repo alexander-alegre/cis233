@@ -1,5 +1,7 @@
 <?php
 // this functions gets called in friends.php to display all of the friend in the json file
+
+
 function getFriends() {
 	$data = file_get_contents('../json/friends.json');
 	$json = json_decode($data, true);
@@ -23,18 +25,6 @@ function getFriends() {
 }
 // this function appends the submited data to the json file
 function appendData() {
-	// $name = $_POST('name');
-	// $language = $_POST('language');
-	// $born = $_POST('born');
-	// $code = $_POST('code');
-
-
-	$data[] = $_POST['submit'];
-	$file = file_get_contents('friends.json');
-	$tempData = json_decode($file);
-	// array_push($tempData, $data);
-	// $jsonData = json_encode($tempData);
-	// file_put_contents('friends.json', $jsonData);
 
 }
 
