@@ -1,0 +1,15 @@
+{
+	"friends": {
+		"Alex": {
+			"Favorite Language": "PHP",
+			"Born": "12/24/1993",
+			"First Line of Code": "1/1/2016"
+		},
+		"Jennifer": {
+			"Favorite Language": "JavaScript",
+			"Born": "1/6/1995",
+			"First Line of Code": "1/1/2015"
+		}
+	}
+}
+	

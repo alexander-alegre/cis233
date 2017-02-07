@@ -7,8 +7,8 @@ $('#school').click(function(){
 	$('.ajax-content').load('resources/ajax/school.html');
 });
 // AJAX call for awards
-$('#awards').click(function(){
-	$('.ajax-content').load('resources/ajax/awards.html');
+$('#skills').click(function(){
+	$('.ajax-content').load('resources/ajax/skills.html');
 });
 // AJAX call for resume
 $('#resume').click(function(){
