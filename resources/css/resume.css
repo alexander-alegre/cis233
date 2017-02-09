@@ -6,35 +6,15 @@ img {
 	height: 100px; */
 	transform: rotate(90deg);
 }
-.menu-item {
-	width: 100%;
-	list-style: none;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	text-align: center;
-	margin-left: -20px;
-	padding: 5px;
-}
-.menu-item:hover {
-	cursor: pointer;
-	border: 1px solid purple;
-	background: lightblue;
+.list-group-item:hover {
 	cursor: pointer;
 }
 .list-group-item {
 	/* width: 85%; */
 }
 /* left side start */
-.left-side {
-	float: left;
-	width: 30%;
-	height: 100%;
-	border-right: 1px solid gray;
-	position: fixed;
-	background: grey;
-}
 .profile {
-	margin: 20px 10px;
+	margin-bottom: 30%;
 	padding: 20% 10px;
 }
 .profile img {
@@ -54,11 +34,9 @@ img {
 }
 /* left side end */
 /* right side start */
-.right-side {
-	margin-right: 15px;
-	float: right;
-	width: 65%;
-}
+
+
+
 /* right side end */
 /* AJAX page styles */
 .ajax-content h1 {
@@ -92,10 +70,5 @@ form {
 
 /* small screens */
 @media (max-width: 780px) {
-	.left-side {
-		display: block;
-	}
-	.right-side {
-		display: block;
-	}	
+	
 }

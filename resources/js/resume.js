@@ -29,8 +29,8 @@ $(document).mouseleave(function() {
 	}
 });
 
-// function that says site will be completed
 
-$(document).ready(function(){
-	alert('hey, before you judge, the site is not done yet');
+$('.list-group-item').click(function() {
+	$('.active').removeClass('active');
+	$(this).addClass('active');
 });
