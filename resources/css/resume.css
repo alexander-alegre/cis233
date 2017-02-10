@@ -2,15 +2,13 @@
 	height: 100%;
 }
 img {
-/* 	width: 100px;
-	height: 100px; */
-	transform: rotate(90deg);
+	transform: rotate(240deg);
+}
+.list-group-item:first-child {
+	margin-top: 10%;
 }
 .list-group-item:hover {
 	cursor: pointer;
-}
-.list-group-item {
-	/* width: 85%; */
 }
 /* left side start */
 .profile {
@@ -49,7 +47,8 @@ img {
 	text-align: center;
 	display: block;
 	margin: 0 auto;
-	background: green;
+	color: white;
+	background: #2E618D;
 }
 .friend-values {
 	padding: 0 10px;
@@ -66,8 +65,11 @@ form {
 .modal p, h1 {
 	padding: 20px;
 }
-
-
+.me-image {
+	height: 100%;
+	width: 100%;
+	transform: rotate(0deg);
+}
 /* small screens */
 @media (max-width: 780px) {
 	

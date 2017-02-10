@@ -27,7 +27,7 @@ require '../json/json.php';
 		<label for="code">First Line of Code</label>
 		<input type="date" name="code" class="form-control" id="code"/>
 	</div>
-	<input type="submit" class="btn btn-default" name="submit" id="submit" />
+	<input type="submit" class="btn btn-block btn-primary" name="submit" id="submit" />
 </form>
 <br/>
 

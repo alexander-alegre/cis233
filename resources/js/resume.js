@@ -29,8 +29,14 @@ $(document).mouseleave(function() {
 	}
 });
 
+// add active class when clicked
 
 $('.list-group-item').click(function() {
 	$('.active').removeClass('active');
 	$(this).addClass('active');
+});
+$('active').css({
+	color: 'white',
+	border: 'green',
+	background: 'green'
 });
