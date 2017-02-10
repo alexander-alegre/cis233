@@ -24,8 +24,23 @@ function getFriends() {
 	}
 }
 // this function appends the submited data to the json file
-function appendData() {
 
+function appendData() {
+	$error = "<p>";
+	if (isset($name) && isset($lang) && isset($title) && isset($code)) {
+		$friend = array(
+				'Name' => $_POST['name'],
+				'Favorite Language' => $_POST['language'],
+				'Title' => $_POST['title'],
+				'First Code' => $_POST['code']
+			);
+		$jsonObject = json_encode($friend);
+		file_get_contents('friend.json');
+		file_put_contents('friend.json', $jsonObject, FILE_APPEND);
+	} else {
+		$error .= "Please fill out all the fields";
+		$error .= "</p>";
+	}
 }
 
 

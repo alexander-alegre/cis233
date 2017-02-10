@@ -70,7 +70,12 @@ form {
 	width: 100%;
 	transform: rotate(0deg);
 }
-/* small screens */
-@media (max-width: 780px) {
-	
+
+/* pulse color of ajax nav */
+.active {
+ animation: color_change 1.5s infinite alternate;
+}
+@keyframes color_change {
+ from { color: #2E618D; }
+ to { color: white; }
 }

@@ -3,7 +3,7 @@ require '../json/json.php';
 ?>
 <h1>Shiloh</h1>
 <p>Fill out this form to be displayed as my friend!</p>
-<form method="post">
+<form action="" method="post">
 	<div class="form-group">
 		<label for="name">Name</label>
 		<input type="text" name="name" class="form-control" id="name" placeholder=""/>
@@ -36,6 +36,6 @@ require '../json/json.php';
 <!-- display all of the friends -->
 <h4>List of Friends</h4>
 <?php
-	// appendData();
+	appendData();
 	getFriends();
 ?>
