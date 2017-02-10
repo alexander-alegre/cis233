@@ -3,7 +3,8 @@
 	require 'header.php';
 ?>
 <div class="container-fluid">
-	<h1>Content</h1>	
+	<img src="../images/responsive/css.jpeg" alt="css code on screen" class="image-bg img-responsive">
+	<h1 class="main">Content</h1>
 </div>
 
 

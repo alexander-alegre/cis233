@@ -12,7 +12,6 @@ require('inc/header.php')
 			<p>The blue line under each language is my understanding of each and how comfortable I am with them.</p>
 			<p class="text-danger">DISCLAIMER: All of the statements on this page are my own opinions.</p>
 		</div>
-
 		<div class="col-sm-12 col-md-6 col-lg-3">
 			<h3><a href="resources/responsive/html.php">HTML5</a></h3>
 			<p>HTML is the very first thing you should be learning if you want to become a web developer. If anyone tells you something different they are not a web developer. All websites use HTML for their markup. I recommend using HTML5 since it's the lastest version and has a lot of cool new features. You can learn the basics of HTML in a couple of days.</p>
@@ -52,6 +51,8 @@ require('inc/header.php')
 	</div>
 
 
+
+	
 <?php 
 $custom_js = '<script src="resources/js/" type="text/javascript"></script>';
 require('inc/footer.php') 

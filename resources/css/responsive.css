@@ -1,0 +1,10 @@
+/* main */
+footer p {
+	text-align: center;
+}
+.image-bg {
+	/* filter: blur(1px); */
+    width: 100%;
+    height: 100%;
+    z-index: -999999;
+}
