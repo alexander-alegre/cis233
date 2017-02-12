@@ -6,7 +6,7 @@ require('inc/header.php')
 	<div class="content container-fluid">
 		<aside class="col-sm-12 col-md-3">
 			<div class="profile">
-				<img src="resources/images/resume/profile.jpg">
+				<img src="resources/images/resume/profile.jpg" alt="image of a beagle next to a sign">
 				<p class="myName"><a href="resume.php">Shiloh</a></p>
 				<p>Full Stack Developer</p>
 			</div>

@@ -6,7 +6,7 @@ require('inc/header.php')
 	<div class="container-fluid">
 		<div class="jumbotron">
 			<h1>CIS 233 Responsive Page</h1>
-			<p>This page will serve as a road map on what to do and how to learn the <a href="https://www.turnkeylinux.org/lampstack" target="_blank">LAMP</a> stack for web developemtn.</p>
+			<p>This page will serve as a road map on what to do and how to learn the <a href="https://www.turnkeylinux.org/lampstack" target="_blank">LAMP</a> stack for web development.</p>
 			<p>I will provide some of the sites that have work work me and I will talk about my journey and the mustakes i made so you dont make the same mistakes.</p>
 			<p>I will give a brief description of each language, why I chose it and what roles it plays in web development.</p>
 			<p>The blue line under each language is my understanding of each and how comfortable I am with them.</p>
