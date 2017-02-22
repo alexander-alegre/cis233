@@ -13,3 +13,47 @@ footer p {
 		height: 500px;
 	}
 }
+
+/* html */
+/* main color: #E34C26 */
+.html-title {
+	text-align: center;
+	font-size: 2em;
+	background: #E34C26;
+	color: white;
+}
+
+/* css */
+/* main color: #0170BA */
+.css-title {
+	text-align: center;
+	font-size: 2em;
+	background: #0170BA;
+	color: white;
+}
+
+
+
+/* javascript */
+/* main color: #F0DB4F */
+.js-title {
+	text-align: center;
+	font-size: 2em;
+	background: #F0DB4F;
+	color: white;
+}
+.js-img {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+/* php */
+/* main color: #8892BF */
+.php-title {
+	text-align: center;
+	font-size: 2em;
+	background: #8892BF;
+	color: white;
+}
