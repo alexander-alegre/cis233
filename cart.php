@@ -6,6 +6,8 @@ require('inc/header.php')
 	<div class="container-fluid">
 		<h1>Learn to Program</h1>
 		<p>Your one stop shop to become a coding guru.</p>
+		<p class="text-info">For a limited time! HTML course gets a 5% discount for every course you purchase!</p>
+		<p>If you'd like to learn more about the languages click on them!</p>
 		<!-- start of html form -->
 		<form action="http://ww8.aitsafe.com/cf/add.cfm" method="post" class="col-sm-12 col-md-6 col-lg-4">
 			<!-- database info start -->

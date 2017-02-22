@@ -10,7 +10,7 @@
       <div class="col-sm-12 col-md-6">
       <p>page content</p>
       <p>page content</p>
-      <img src="../../resources/images/responsive/css.jpg" alt="css cartoon" class="js-img" />
+      <img src="../../resources/images/responsive/css-cartoon.gif" alt="css cartoon" class="js-img" />
     </div>
     <div class="col-sm-12 col-md-6">
       <div class="col-sm-12 col-md-4 col-lg-4">

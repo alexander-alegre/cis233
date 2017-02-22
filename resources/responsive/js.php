@@ -10,7 +10,7 @@
   <div class="col-sm-12 col-md-6">
     <p>JavaScript is a language that if you want to be a web-developer you WILL use. So this is one that you need to learn.</p>
     <p>First thing though. Java is NOT the same as JavaScript. Don't make that mistake.</p>
-    <img src="../../resources/images/responsive/js.jpg" alt="javascript cartoon" class="js-img" />
+    <img src="../../resources/images/responsive/jsvsjava.jpg" alt="javascript cartoon" class="js-img" />
   </div>
   <div class="col-sm-12 col-md-6">
     <div class="col-sm-12 col-md-4 col-lg-4">
