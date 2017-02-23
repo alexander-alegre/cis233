@@ -15,15 +15,15 @@
   <div class="col-sm-12 col-md-6">
     <div class="col-sm-12 col-md-4 col-lg-4">
       <img src="../../resources/images/responsive/step1.png" alt="step 1 image">
-      <p>The first thing you need to do is</p>
+      <p>JavaScript is the most used language in the world! Yes that is an actual statistic. This is because all browsers use it. So that is why you need to learn it. The best way to learn JavaScript is going to W3 Schools and following along with their tutorial. They will explain all of the basics of the language. Now you will know the syntax but you will be very confused because you didn't apply it to any real world application! You just did a loop and displayed a number 100 times. That's dumb.. But at least you know the syntax which is important.</p>
     </div>
     <div class="col-sm-12 col-md-4 col-lg-4">
       <img src="../../resources/images/responsive/step2.png" alt="step 2 image">
-      <p>The second thing you need to do is</p>
+      <p>Now lets take your knowledge of JavaScript and take it over to treehouse and do <a href="https://teamtreehouse.com/tracks/full-stack-javascript" target="_blank">this</a> course. It's all about JavaScript and you will biuld some really cool applications. It's about 50 hours of amazing content! you won't regret it and now you will have a very deep knowledge of JavaScipt and some of their frameworks that help expend the language.</p>
     </div>
     <div class="col-sm-12 col-md-4 col-lg-4">
       <img src="../../resources/images/responsive/step3.png" alt="step 3 image">
-      <p>The third thing you need to do is</p>
+      <p>Lastly i recommend <a href="https://www.udemy.com/understand-javascript/" target="_blank">this</a> course. It's meant for people that already know JavaScript and want to understand all of it's little quirks and really dice deep into the language. I didn't include any really big textbooks even though i read some. The reason for this is I am a visual learning and staring at a book as a refference is good but after reading for an hour I just fall asleep. if i have someone talking to me it's more engaging and therefore i learn at a faster pace. So if you learn like me this tips will help. Now lets make your website dynamic with some <a href="php.php">php</a>.</p>
     </div>
   </div>
   <div class="col-sm-12 col-md-6">

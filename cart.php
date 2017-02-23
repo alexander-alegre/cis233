@@ -29,10 +29,10 @@ require('inc/header.php')
 				<!-- <input type="text" name="qty" id="qty-html" /> -->
 			</div>
 			<div class="form-group">
-				<input type="submit" value="Add To Cart" id="discount" />
+				<input class="btn-info" type="submit" value="Add To Cart" id="discount" />
 			</div>
 			<div class="form-group">
-				<input type="reset" value="Clear Order" />
+				<input class="btn-info" type="reset" value="Clear Order" />
 			</div>
 		</form>
 		<!-- end of html form -->
@@ -56,10 +56,10 @@ require('inc/header.php')
 				</select>
 			</div>
 			<div class="form-group">
-				<input type="submit" value="Add To Cart" />
+				<input class="btn-info" type="submit" value="Add To Cart" />
 			</div>
 			<div class="form-group">
-				<input type="reset" value="Clear Order" />
+				<input class="btn-info" type="reset" value="Clear Order" />
 			</div>
 		</form>
 		<!-- end of css form -->
@@ -83,10 +83,10 @@ require('inc/header.php')
 				</select>
 			</div>
 			<div class="form-group">
-				<input type="submit" value="Add To Cart" />
+				<input class="btn-info" type="submit" value="Add To Cart" />
 			</div>
 			<div class="form-group">
-				<input type="reset" value="Clear Order" />
+				<input class="btn-info" type="reset" value="Clear Order" />
 			</div>
 		</form>
 		<!-- end of js form -->
@@ -106,10 +106,10 @@ require('inc/header.php')
 				<input type="text" name="qty" id="qty-php" />
 			</div>
 			<div class="form-group">
-				<input type="submit" value="Add To Cart" />
+				<input class="btn-info" type="submit" value="Add To Cart" />
 			</div>
 			<div class="form-group">
-				<input type="reset" value="Clear Order" />
+				<input class="btn-info" type="reset" value="Clear Order" />
 			</div>
 		</form>
 		<!-- end of php form -->
