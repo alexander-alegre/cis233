@@ -5,7 +5,7 @@
 <div class="container-fluid">
 	<img src="../images/responsive/css.jpeg" alt="css code on screen" class="image-bg img-responsive">
 	<h1 class="main">CSS</h1>
-  <p class="text-muted">Cascadinf Style Sheets</p>
+  <p class="text-muted">Cascading Style Sheets</p>
   <p class="text-danger">Some of these resources can also be used for other languages not just this one. I used these particular resources because they are the ones I have used myself.</p>
       <div class="col-sm-12 col-md-6">
       <p>CSS is another one that is required to know. This one is quite easy to learn but very hard to master. You will most likely learn CSS along side with HTML. They go hand by hand.</p>
