@@ -71,13 +71,15 @@ $today = date("n/j/Y");
 	</nav>
 	<!-- content start -->
 	<div class="container-fluid">
-		<h1 class="text-center">Lightbox</h1>
-		<p class="text-center">Click on the images to see a larger version of them</p>
-		<div class="parent-container">
-		  <a href="resources/images/light/dog-big.jpeg" class="col-sm-4 col-md-4 col-lg-4"><img src="resources/images/light/dog.jpeg" alt="dog" /></a>
-		  <a href="resources/images/light/car-big.jpeg" class="col-sm-4 col-md-4 col-lg-4"><img src="resources/images/light/car.jpeg" alt="car" /></a>
-		  <a href="resources/images/light/chess-big.jpeg" class="col-sm-4 col-md-4 col-lg-4"><img src="resources/images/light/chess.jpeg" alt="chess" /></a>
-		</div>
+		<section data-featherlight-gallery data-featherlight-filter="a">
+			<h1 class="text-center">Lightbox</h1>
+			<p class="text-center">Click on the images to see a larger version of them</p>
+			<div class="parent-container">
+				<a href="resources/images/light/dog-big.jpeg" class="col-sm-4 col-md-4 col-lg-4"><img src="resources/images/light/dog.jpeg" alt="dog" /></a>
+				<a href="resources/images/light/car-big.jpeg" class="col-sm-4 col-md-4 col-lg-4"><img src="resources/images/light/car.jpeg" alt="car" /></a>
+				<a href="resources/images/light/chess-big.jpeg" class="col-sm-4 col-md-4 col-lg-4"><img src="resources/images/light/chess.jpeg" alt="chess" /></a>
+			</div>
+		</section>
 	</div>
 	<!-- content end -->
 	<footer>
@@ -87,12 +89,16 @@ $today = date("n/j/Y");
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<!-- Latest compiled and minified JavaScript Bootstrap -->
 	<script src="vendors/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
-	<script src="/resources/popup/jquery.magnific-popup.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script>
-		$('.parent-container').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
-		  type: 'image'
-		  // other options
+		autoBind: '[data-featherlight-gallery]'
+		$('a.gallery').featherlightGallery({
+				previousIcon: '«',
+				nextIcon: '»',
+				galleryFadeIn: 300,
+
+				openSpeed: 300
 		});
 	</script>
 </body>
